@@ -1,0 +1,11 @@
+.fitness {
+    background-color: #ededed;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.fitness img {
+    width: 100%;
+    border-radius: 10px;
+}

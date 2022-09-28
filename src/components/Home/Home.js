@@ -14,9 +14,11 @@ const Home = () => {
     return (
         <div className='home-container'>
             <div className="home-left">
+                <div className="all-excersice">
                 {
                     fitness.map(gym => <Fitness excersice={gym}></Fitness>)
                 }
+                </div>
             </div>
             <div className="home-right">
                 <h2>Right</h2>
