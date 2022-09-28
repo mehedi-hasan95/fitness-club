@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Fitness = () => {
+const Fitness = (props) => {
+    const {title, img, content, age, time} = props.excersice;
     return (
         <div>
-            <h2>Fitness</h2>
+            <h2>{title}</h2>
         </div>
     );
 };

@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Fitness from '../Fitness/Fitness';
-import Header from '../Header/Header';
 import './Home.css'
 
 const Home = () => {
+
+    const [fitness, setFitness] = useState([]);
+    useEffect( ()=>{
+        fetch('fitness.json')
+        .then(res => res.json())
+        .then(data => setFitness( data ))
+    },[]);
+    console.log( fitness );
     return (
-        <div className='home'>
+        <div className='home-container'>
             <div className="home-left">
-                <Header></Header>
-                <Fitness></Fitness>
+                {
+                    fitness.map(gym => <Fitness excersice={gym}></Fitness>)
+                }
             </div>
             <div className="home-right">
-
+                <h2>Right</h2>
             </div>
         </div>
     );

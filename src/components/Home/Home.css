@@ -1,14 +1,4 @@
-.home {
+.home-container {
     display: grid;
-    grid-template-columns: 4fr 2fr;
-    padding: 0 140px;
-    background-color: #F2F4FA;
-}
-
-.home-left {
-    padding-left: 20px;
-}
-
-.home-right {
-    background-color: #fff;
+    grid-template-columns: 3fr 1fr;
 }
