@@ -17,7 +17,6 @@ const Home = () => {
     // Click handaler
     const [gym, setGym] = useState([]);
     const clickHandle = excersiceName => {
-        console.log( excersiceName );
         const newGym = [...gym, excersiceName];
         setGym(newGym);
     }
