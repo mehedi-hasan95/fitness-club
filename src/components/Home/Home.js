@@ -12,13 +12,19 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setFitness( data ))
     },[]);
-    console.log( fitness );
+    
+
+    // Click handaler
+    const clickHandle = excersiceName => {
+        console.log( excersiceName );
+    }
+    
     return (
         <div className='home-container'>
             <div className="home-left">
                 <div className="all-excersice">
                 {
-                    fitness.map(gym => <Fitness excersice={gym}></Fitness>)
+                    fitness.map(gym => <Fitness excersice={gym} key={gym.id} clickHandle={clickHandle}></Fitness>)
                 }
                 </div>
             </div>
