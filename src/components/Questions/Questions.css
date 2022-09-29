@@ -1,0 +1,16 @@
+.question-section {
+    padding: 20px 80px;
+}
+
+.question-section h2 {
+    color: #674399;
+}
+
+
+
+
+@media screen and (max-width: 768px)  {
+    .question-section {
+        padding: 20px;
+    }
+}
