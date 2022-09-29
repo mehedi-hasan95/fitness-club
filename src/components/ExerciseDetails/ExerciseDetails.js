@@ -2,28 +2,26 @@ import React, { useState } from 'react';
 import './ExerciseDetails.css'
 
 const ExerciseDetails = (props) => {
-    const { gymSet } = props;
+    const {gymSet} = props;
     let totalTime = 0;
     for (const time of gymSet) {
         totalTime = totalTime + time.time;
     }
     const [newValue, setNewValue] = useState([]);
     const newFunction = id => {
-        const newNumber = [...newValue, id];
+        const newNumber = [ id];
         setNewValue(newNumber);
     }
 
-    // Convart array to number
-    const initialValue = 0;
-    const sumWithInitial = newValue.reduce(
-        (previousValue, currentValue) => previousValue + currentValue,
-        initialValue
-    );
-
-    console.log(sumWithInitial);
-
-    ///
-
+    // const citrus = newValue.slice(1);
+    // const citrus = [];
+    // if(newValue.length ===0) {
+    //     const citrus = newValue.slice(0);
+    // } else {
+    //     const citrus = newValue.slice(1);
+    // }
+    // console.log( citrus );
+    
     return (
         <div className='exercise-details'>
             <div className="break">
@@ -43,7 +41,7 @@ const ExerciseDetails = (props) => {
                 </div>
                 <div className="exercise-time break">
                     <h3>Break time</h3>
-                    <p>{sumWithInitial}s</p>
+                    <p>{newValue}s</p>
                 </div>
             </div>
             <button className='activity'>Activity Completed</button>
