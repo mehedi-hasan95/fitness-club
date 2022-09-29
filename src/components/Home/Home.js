@@ -21,6 +21,14 @@ const Home = () => {
         const newGym = [...gym, excersiceName];
         setGym(newGym);
     }
+
+    /////
+
+    const [newValue, setNewValue] = useState([]);
+    const newFunction = id => {
+        const newNumber = [...newValue, id];
+        setNewValue(newNumber);
+    }
     
     return (
         <div className='home-container'>

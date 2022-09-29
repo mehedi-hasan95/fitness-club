@@ -12,7 +12,7 @@
     margin-top: 25px;
 }
 
-.exercise-details button {
+button.activity {
     background-color: #674399;
     border: none;
     padding: 20px 15px;
@@ -26,6 +26,22 @@
     margin-top: 30px;
 }
 
-.exercise-details button:hover {
+button.activity:hover {
     background-color: #9b51e0;
+}
+
+.break-time {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F4FA;
+    padding: 20px;
+}
+
+.break-time button {
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
 }

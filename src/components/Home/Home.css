@@ -16,3 +16,21 @@
 .home-right {
     background-color: #fff;
 }
+
+@media screen and (max-width: 768px)  {
+    .home-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-left {
+        padding: 0 10px;
+    }
+
+    .all-excersice {
+        grid-template-columns: 1fr;
+    }
+
+    .home-left h2 {
+        text-align: center;
+    }
+}
