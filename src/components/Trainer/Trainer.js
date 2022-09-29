@@ -1,6 +1,8 @@
 import React from 'react';
 import trainerImg from '../../imgs/Trainer.jpg';
-import './Trainer.css'
+import './Trainer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 
 const Trainer = () => {
     return (
@@ -9,7 +11,7 @@ const Trainer = () => {
                 <img src={trainerImg} alt="" />
                 <div className="trainer-info">
                     <h3>Mehedi Hasan</h3>
-                    <h5>Jessore, Bangladesh</h5>
+                    <h5><FontAwesomeIcon icon={faLocationPin} /> Jessore, Bangladesh</h5>
                 </div>
             </div>
             <div className="trainer-details">

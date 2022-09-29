@@ -25,3 +25,7 @@
 .fitness button:hover {
     background-color: #9b51e0;
 }
+
+.fitness-info h2 {
+    color: #9b51e0;
+}

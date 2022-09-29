@@ -1,5 +1,7 @@
 .exercise-details {
     padding: 10px 30px;
+    position: sticky;
+    top: 0;
 }
 
 .exercise-time {
@@ -33,7 +35,7 @@ button.activity:hover {
 .break-time {
     display: flex;
     justify-content: space-between;
-    background-color: #F2F4FA;
+    background-color: #ededed;
     padding: 20px;
 }
 
@@ -44,4 +46,10 @@ button.activity:hover {
     border-radius: 50px;
     font-size: 16px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px)  {
+    .exercise-details {
+        position: relative;
+    }
 }

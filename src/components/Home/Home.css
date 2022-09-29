@@ -1,7 +1,7 @@
 .home-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: #f2f2f2;
+    background-color: #ededed;
 }
 
 .all-excersice {
@@ -22,12 +22,8 @@
         grid-template-columns: 1fr;
     }
 
-    .home-left {
-        padding: 0 10px;
-    }
-
     .all-excersice {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     .home-left h2 {
@@ -38,7 +34,7 @@
 @media screen and (max-width: 992px)  {
 
     .home-left {
-        padding: 0 40px;
+        padding: 0;
     }
 
     .all-excersice {
