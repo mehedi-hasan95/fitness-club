@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './ExerciseDetails.css';
 
 // Toast
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addToDb, getStoredProduct } from '../utilities/fakedb';
 
 const ExerciseDetails = (props) => {
     const { gymSet } = props;
@@ -13,10 +14,19 @@ const ExerciseDetails = (props) => {
         totalTime = totalTime + time.time;
     }
     const [newValue, setNewValue] = useState([]);
+
+
+    // From localStorage
+    useEffect( () => {
+        const saveItem = getStoredProduct();
+        setNewValue(saveItem);
+    },[newValue]);
+
     const newFunction = id => {
         const newNumber = [id];
         setNewValue(newNumber);
-        console.log(id);
+        addToDb(id);
+
     }
 
     // toast 

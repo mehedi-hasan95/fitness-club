@@ -14,3 +14,9 @@
         padding: 20px;
     }
 }
+
+@media screen and (max-width: 992px)  {
+    .question-section {
+        padding: 20px 40px;
+    }
+}
