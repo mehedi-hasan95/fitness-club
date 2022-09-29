@@ -5,7 +5,7 @@
         "img": "https://images.unsplash.com/photo-1627483297929-37f416fec7cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-30",
-        "time": "60s"
+        "time": 60
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -13,7 +13,7 @@
         "img": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-60",
-        "time": "120s"
+        "time": 120
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -21,7 +21,7 @@
         "img": "https://images.unsplash.com/photo-1521804906057-1df8fdb718b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-40",
-        "time": "90s"
+        "time": 90
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -29,7 +29,7 @@
         "img": "https://images.unsplash.com/photo-1607962252666-2c33af3c6ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-30",
-        "time": "20s"
+        "time": 20
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -37,7 +37,7 @@
         "img": "https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-30",
-        "time": "60s"
+        "time": 180
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -45,7 +45,7 @@
         "img": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-80",
-        "time": "300s"
+        "time": 300
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -53,7 +53,7 @@
         "img": "https://images.unsplash.com/photo-1623946724822-ba48a838f3da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-30",
-        "time": "60s"
+        "time": 60
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -61,7 +61,7 @@
         "img": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-30",
-        "time": "60s"
+        "time": 60
       },
       {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
@@ -69,6 +69,6 @@
         "img": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80",
         "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
         "age": "25-30",
-        "time": "60s"
+        "time": 150
       }
 ]
