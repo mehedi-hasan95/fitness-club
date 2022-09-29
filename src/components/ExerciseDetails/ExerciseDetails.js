@@ -1,9 +1,10 @@
 import React from 'react';
 import './ExerciseDetails.css'
 
-const ExerciseDetails = () => {
+const ExerciseDetails = (props) => {
     return (
         <div className='exercise-details'>
+            <h2>Gym: {props.gymSet.length}</h2>
             <div className="break">
                 <h2>Add A Break</h2>
             </div>

@@ -15,8 +15,11 @@ const Home = () => {
     
 
     // Click handaler
+    const [gym, setGym] = useState([]);
     const clickHandle = excersiceName => {
         console.log( excersiceName );
+        const newGym = [...gym, excersiceName];
+        setGym(newGym);
     }
     
     return (
@@ -30,7 +33,7 @@ const Home = () => {
             </div>
             <div className="home-right">
                 <Trainer></Trainer>
-                <ExerciseDetails></ExerciseDetails>
+                <ExerciseDetails gymSet = {gym}></ExerciseDetails>
             </div>
         </div>
     );
