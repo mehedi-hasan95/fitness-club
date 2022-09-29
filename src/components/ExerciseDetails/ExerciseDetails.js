@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
-import './ExerciseDetails.css'
+import './ExerciseDetails.css';
+
+// Toast
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ExerciseDetails = (props) => {
-    const {gymSet} = props;
+    const { gymSet } = props;
     let totalTime = 0;
     for (const time of gymSet) {
         totalTime = totalTime + time.time;
     }
     const [newValue, setNewValue] = useState([]);
     const newFunction = id => {
-        const newNumber = [ id];
+        const newNumber = [id];
         setNewValue(newNumber);
+        console.log(id);
     }
 
-    // const citrus = newValue.slice(1);
-    // const citrus = [];
-    // if(newValue.length ===0) {
-    //     const citrus = newValue.slice(0);
-    // } else {
-    //     const citrus = newValue.slice(1);
-    // }
-    // console.log( citrus );
-    
+    // toast 
+    const notify = () => toast("Thank you very much");
+
     return (
         <div className='exercise-details'>
             <div className="break">
                 <h2>Add A Break</h2>
                 <div className="break-time">
-                    <button onClick={() => newFunction(10)}>10<span>s</span></button>
-                    <button onClick={() => newFunction(20)}>20<span>s</span></button>
-                    <button onClick={() => newFunction(30)}>30<span>s</span></button>
-                    <button onClick={() => newFunction(40)}>40<span>s</span></button>
+                    <button onClick={() => newFunction(10)}>10s</button>
+                    <button onClick={() => newFunction(20)}>20s</button>
+                    <button onClick={() => newFunction(30)}>30s</button>
+                    <button onClick={() => newFunction(40)}>40s</button>
                 </div>
             </div>
             <div className="details">
@@ -44,7 +44,8 @@ const ExerciseDetails = (props) => {
                     <p>{newValue}s</p>
                 </div>
             </div>
-            <button className='activity'>Activity Completed</button>
+            <button onClick={notify} className='activity'>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };
