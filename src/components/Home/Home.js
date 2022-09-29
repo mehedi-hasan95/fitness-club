@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Fitness from '../Fitness/Fitness';
 import Trainer from '../Trainer/Trainer';
 import './Home.css'
@@ -23,6 +24,7 @@ const Home = () => {
             </div>
             <div className="home-right">
                 <Trainer></Trainer>
+                <ExerciseDetails></ExerciseDetails>
             </div>
         </div>
     );
