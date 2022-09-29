@@ -2,7 +2,7 @@ import React from 'react';
 import trainerImg from '../../imgs/Trainer.jpg';
 import './Trainer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-  import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 
 const Trainer = () => {
     return (

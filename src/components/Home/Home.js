@@ -22,8 +22,6 @@ const Home = () => {
         setGym(newGym);
     }
 
-    /////
-
     const [newValue, setNewValue] = useState([]);
     const newFunction = id => {
         const newNumber = [...newValue, id];
