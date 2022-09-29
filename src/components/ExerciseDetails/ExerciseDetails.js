@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ExerciseDetails.css';
 
-// Toast
+// Toast Mehedi
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
