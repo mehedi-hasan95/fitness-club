@@ -9,7 +9,7 @@ const Home = () => {
 
     const [fitness, setFitness] = useState([]);
     useEffect( ()=>{
-        fetch('fitness.json')
+        fetch('./fitness.json')
         .then(res => res.json())
         .then(data => setFitness( data ))
     },[]);
