@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.header img {
+    height: 56px;
+}
+
+.header h2 {
+    padding-left: 15px;
+    color: #674399;
+}
