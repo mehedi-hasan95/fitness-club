@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Fitness from '../Fitness/Fitness';
+import Trainer from '../Trainer/Trainer';
 import './Home.css'
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="home-right">
-                <h2>Right</h2>
+                <Trainer></Trainer>
             </div>
         </div>
     );

@@ -12,6 +12,7 @@ const Fitness = (props) => {
                 <strong>For Age: {age}</strong>
                 <p><strong>Time Required: {time}s</strong></p>
             </div>
+            <button>Add to List</button>
         </div>
     );
 };
